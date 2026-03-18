@@ -5,8 +5,8 @@ import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-900 flex-grow'>
-            <footer className="footer sm:footer-horizontal   p-10 text-white mx-auto max-w-screen-2xl px-3 lg:px-6">
+        <div className='bg-gray-900'>
+            <footer className="footer sm:footer-horizontal   p-10 text-white mx-auto w-11/12 px-3 lg:px-6">
                 <aside>
                     <Link to='/'>
                         <div className="gap-1 flex items-center">
