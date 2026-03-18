@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link} from 'react-router';
+import { Link, NavLink} from 'react-router';
 import logoImg from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
@@ -8,9 +8,9 @@ const Navbar = () => {
 
         <div className="flex flex-col lg:flex-row py-2 gap-4 lg:gap-8 text-lg font-semibold">
 
-            <Link to='/'> <li>Home</li></Link>
-            <Link to='/apps'> <li>Apps</li></Link>
-            <Link to='/readList'> <li>Installation</li></Link>
+            <NavLink to='/'> <li>Home</li></NavLink>
+            <NavLink to='/apps'> <li>Apps</li></NavLink>
+            <NavLink to='/readList'> <li>Installation</li></NavLink>
 
         </div>
     </>
