@@ -1,0 +1,360 @@
+[
+ {
+    "id": 1,
+    "image": "https://i.ibb.co.com/r29z53SC/OXKHh.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Stay connected with friends, family, and communities. Discover new content through Watch, Marketplace, and Groups. Share updates, photos, and engage with millions of people worldwide in the largest social network.",
+    "size": 58,
+    "reviews": "134M",
+    "ratingAvg": 4.1,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 3360501 },
+      { "name": "2 star", "count": 5040752 },
+      { "name": "3 star", "count": 8401253 },
+      { "name": "4 star", "count": 26043887 },
+      { "name": "5 star", "count": 91153605 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/203M18D2/alexander-shatov-qsu-ER9x-YOY-unsplash.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "description": "Experience simple, secure, and reliable messaging and calling for free. Use end-to-end encryption to keep your personal conversations private. Available on mobile and desktop for seamless communication across the globe.",
+    "size": 35,
+    "reviews": "178M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 4225519 },
+      { "name": "2 star", "count": 6338278 },
+      { "name": "3 star", "count": 10563798 },
+      { "name": "4 star", "count": 34860534 },
+      { "name": "5 star", "count": 122011869 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/hJ5WF6Mt/alexander-shatov-71-Qk8-ODIBko-unsplash.jpg",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "description": "Express yourself and connect with friends through photos and videos. Explore Reels for short-form entertainment, post Stories that disappear in 24 hours, and follow your favorite creators and brands for daily inspiration.",
+    "size": 42,
+    "reviews": "145M",
+    "ratingAvg": 4.0,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 3741935 },
+      { "name": "2 star", "count": 5612903 },
+      { "name": "3 star", "count": 9354838 },
+      { "name": "4 star", "count": 28064516 },
+      { "name": "5 star", "count": 98225806 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/GfrsfPL3/0defu.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "An all-in-one communication app with unlimited text, voice, and video calling features. Connect with your Facebook friends easily, use fun themes and stickers, and enjoy cross-app messaging with Instagram users.",
+    "size": 48,
+    "reviews": "85M",
+    "ratingAvg": 4.1,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2131661 },
+      { "name": "2 star", "count": 3197492 },
+      { "name": "3 star", "count": 5329153 },
+      { "name": "4 star", "count": 16520376 },
+      { "name": "5 star", "count": 57821316 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/fGGsg7L4/alexander-shatov-I4p0-Fcj-DBJI-unsplash.jpg",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "description": "The leading destination for short-form mobile video. TikTok offers exciting, spontaneous, and genuine content. From your morning coffee to your evening commute, TikTok has the videos that are guaranteed to make your day.",
+    "size": 89,
+    "reviews": "58M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1341040 },
+      { "name": "2 star", "count": 2011560 },
+      { "name": "3 star", "count": 3352601 },
+      { "name": "4 star", "count": 11398843 },
+      { "name": "5 star", "count": 39895953 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/Y7Pcph3M/alexander-shatov-w-qqwn5-O-4-I-unsplash.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Stream millions of songs and podcasts for free. Discover new music through personalized playlists like Discover Weekly. Create your own sound libraries and listen to your favorite artists anywhere, anytime on any device.",
+    "size": 28,
+    "reviews": "28M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 647398 },
+      { "name": "2 star", "count": 971098 },
+      { "name": "3 star", "count": 1618497 },
+      { "name": "4 star", "count": 5502890 },
+      { "name": "5 star", "count": 19260115 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/whkkR8WX/u0t-JP.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Watch award-winning TV shows, movies, documentaries, and stand-up specials. With the mobile app, you get Netflix while you travel, commute, or just take a break. Download videos to your mobile device and watch offline.",
+    "size": 18,
+    "reviews": "16M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 390243 },
+      { "name": "2 star", "count": 585365 },
+      { "name": "3 star", "count": 975609 },
+      { "name": "4 star", "count": 3121951 },
+      { "name": "5 star", "count": 10926829 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/Z1FrGyJP/d-Uz-Hz.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "description": "A fast and fun way to share the moment with friends and family. Snapchat opens right to the camera, so you can send a Snap in seconds! Just take a photo or video, add a caption, and send it to your best friends.",
+    "size": 65,
+    "reviews": "32M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 780487 },
+      { "name": "2 star", "count": 1170731 },
+      { "name": "3 star", "count": 1951219 },
+      { "name": "4 star", "count": 6243902 },
+      { "name": "5 star", "count": 21853658 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/7D16f0c/alexander-shatov-ni-Uk-Im-Zc-SP8-unsplash.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "See what the world is watching—from the hottest music videos to what’s popular in gaming, fashion, beauty, news, learning and more. Subscribe to channels you love, create content of your own, and share with friends.",
+    "size": 115,
+    "reviews": "150M",
+    "ratingAvg": 4.5,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 3380281 },
+      { "name": "2 star", "count": 5070422 },
+      { "name": "3 star", "count": 8450704 },
+      { "name": "4 star", "count": 29577464 },
+      { "name": "5 star", "count": 103521126 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/TB87Zkhm/alexander-shatov-d4-a-CS3js-Q0-unsplash.jpg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "description": "The trusted digital town square for everyone. Join the conversation to see what's happening in the world right now. From breaking news to entertainment and sports, X is where the global community comes to talk.",
+    "size": 34,
+    "reviews": "21M",
+    "ratingAvg": 3.9,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 558139 },
+      { "name": "2 star", "count": 837209 },
+      { "name": "3 star", "count": 1395348 },
+      { "name": "4 star", "count": 4046511 },
+      { "name": "5 star", "count": 14162790 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/tMk14dVr/Gemini-Generated-Image-aj6f57aj6f57aj6f.png",
+    "title": "PUBG MOBILE",
+    "companyName": "Level Infinite",
+    "description": "The original Battle Royale mobile game and one of the best mobile shooting games. Engage in extreme 10-minute battles, explore diverse maps, and enjoy realistic gunplay. Be the last one standing in this epic survival game.",
+    "size": 1100,
+    "reviews": "45M",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1068249 },
+      { "name": "2 star", "count": 1602373 },
+      { "name": "3 star", "count": 2670623 },
+      { "name": "4 star", "count": 8813056 },
+      { "name": "5 star", "count": 30845697 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/mr9W4Gb6/MSNb-K.jpg",
+    "title": "Free Fire",
+    "companyName": "Garena International",
+    "description": "A world-famous survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other players, all seeking survival. Choose your starting point and stay in the safe zone.",
+    "size": 715,
+    "reviews": "115M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2804878 },
+      { "name": "2 star", "count": 4207317 },
+      { "name": "3 star", "count": 7012195 },
+      { "name": "4 star", "count": 22439024 },
+      { "name": "5 star", "count": 78536585 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/CKDZGNw3/alexander-shatov-9-Zjd7-PE-FRM-unsplash.jpg",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "description": "Build your professional profile, network with industry experts, and find your next job opportunity. Stay updated on the latest business news, share insights with your peers, and grow your career through professional connections.",
+    "size": 40,
+    "reviews": "3.5M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 80924 },
+      { "name": "2 star", "count": 121387 },
+      { "name": "3 star", "count": 202312 },
+      { "name": "4 star", "count": 687861 },
+      { "name": "5 star", "count": 2407514 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/KvK6N2J/Gemini-Generated-Image-xfub2gxfub2gxfub.png",
+    "companyName": "zoom.us",
+    "description": "Work together better with a single app that combines video conferencing, team chat, whiteboard, and phone. Host high-quality meetings with screen sharing and real-time collaboration tools for remote and hybrid teams.",
+    "size": 62,
+    "reviews": "4M",
+    "ratingAvg": 4.1,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 100313 },
+      { "name": "2 star", "count": 150470 },
+      { "name": "3 star", "count": 250783 },
+      { "name": "4 star", "count": 777429 },
+      { "name": "5 star", "count": 2721003 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/m5ZBLnts/Gemini-Generated-Image-r2vgqhr2vgqhr2vg.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices. One of the world's top 10 most downloaded apps with over 800 million active users. Experience lightning-fast speeds and high-end security.",
+    "size": 31,
+    "reviews": "12M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 270422 },
+      { "name": "2 star", "count": 405633 },
+      { "name": "3 star", "count": 676056 },
+      { "name": "4 star", "count": 2366197 },
+      { "name": "5 star", "count": 8281690 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/k7dQCnr/Gemini-Generated-Image-7kkcs47kkcs47kkc.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Get a reliable ride in minutes with the Uber app. Whether you’re commuting to work or heading to the airport, Uber connects you with a driver at the tap of a button. Track your ride and pay seamlessly through the app.",
+    "size": 55,
+    "reviews": "10M",
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 219780 },
+      { "name": "2 star", "count": 329670 },
+      { "name": "3 star", "count": 549450 },
+      { "name": "4 star", "count": 1978021 },
+      { "name": "5 star", "count": 6923076 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/nsZG645P/Gemini-Generated-Image-8u0fw78u0fw78u0f.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "description": "Discover millions of possibilities for every part of your life. From new recipes to creative home design ideas and fashion inspiration, Pinterest is the place to explore and save everything that inspires you.",
+    "size": 33,
+    "reviews": "9M",
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 197802 },
+      { "name": "2 star", "count": 296703 },
+      { "name": "3 star", "count": 494505 },
+      { "name": "4 star", "count": 1780219 },
+      { "name": "5 star", "count": 6230769 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/0RVswkkT/Gemini-Generated-Image-kp0nnckp0nnckp0n.png",
+    "companyName": "Duolingo",
+    "description": "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your skills.",
+    "size": 45,
+    "reviews": "15M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 321715 },
+      { "name": "2 star", "count": 482573 },
+      { "name": "3 star", "count": 804289 },
+      { "name": "4 star", "count": 2975871 },
+      { "name": "5 star", "count": 10415549 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/rfRdGY4b/Gemini-Generated-Image-hfjn8nhfjn8nhfjn.png",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "description": "Identify any song in seconds. Discover artists, lyrics, videos, and playlists—all for free. Shazam works offline, in the background, and even identifies music from other apps like TikTok, Instagram, and YouTube.",
+    "size": 22,
+    "reviews": "7M",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 146596 },
+      { "name": "2 star", "count": 219895 },
+      { "name": "3 star", "count": 366492 },
+      { "name": "4 star", "count": 1392670 },
+      { "name": "5 star", "count": 4874345 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/wNF16KcL/Gemini-Generated-Image-azdw7jazdw7jazdw.png",
+    "title": "Canva",
+    "companyName": "Canva",
+    "description": "Design and video editing made simple and fun. Create stunning social media posts, videos, cards, flyers, and photo collages. No design experience? No problem. Canva offers thousands of free templates for everyone.",
+    "size": 38,
+    "reviews": "12M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 257372 },
+      { "name": "2 star", "count": 386058 },
+      { "name": "3 star", "count": 643431 },
+      { "name": "4 star", "count": 2380697 },
+      { "name": "5 star", "count": 8332439 }
+    ]
+  }
+]

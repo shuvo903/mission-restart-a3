@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                     </Link>
                     <p className='text-sm  text-stone-300 mt-2'>
-                       Empowering your digital lifestyle.<br /> Discover, install, and organize the<br />  best-in-class apps with Hero IO—the<br />  ultimate app hub for power users.
+                        Empowering your digital lifestyle.<br /> Discover, install, and organize the<br />  best-in-class apps with Hero IO—the<br />  ultimate app hub for power users.
                     </p>
                 </aside>
                 <nav>
