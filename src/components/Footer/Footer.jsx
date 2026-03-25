@@ -11,7 +11,7 @@ const Footer = () => {
                     <Link to='/'>
                         <div className="gap-1 flex items-center">
                             <img className='w-10 h-10' src={logoImg} alt="" />
-                            <h1 className='text-xl font-bold  bg-clip-text text-transparent bg- bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>HERO.IO</h1>
+                            <h1 className='text-xl font-bold  bg-clip-text text-transparent bg-[linear-gradient(138deg,#632EE3_0%,#9F62F2_100%)]'>HERO.IO</h1>
                         </div>
                     </Link>
                     <p className='text-sm  text-stone-300 mt-2'>
@@ -47,7 +47,7 @@ const Footer = () => {
             </footer>
             <footer className="footer sm:footer-horizontal footer-center bg-gray-900 text-base  p-4 text-white border-t-2 border-gray-500 ">
                 <aside>
-                    <p>© {new Date().getFullYear()} CS — Ticket System. All rights reserved.</p>
+                    <p>Copyright © {new Date().getFullYear()} - All rights reserved.</p>
                 </aside>
             </footer>
         </div>
