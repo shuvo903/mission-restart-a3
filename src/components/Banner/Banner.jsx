@@ -2,6 +2,7 @@ import React from 'react';
 import googlePlayImg from '../../assets/googlePlay.png';
 import appStoreImg from '../../assets/appStore.png';
 import bannerImage from '../../assets/hero.png'
+import { Link } from 'react-router';
 
 const Banner = () => {
     return (
@@ -14,9 +15,13 @@ const Banner = () => {
             </div>
 
             <div className="flex lg:flex-row md:flex-row flex-col text-center lg:gap-6 md:gap-5 gap-4 justify-center items-center">
-                <button className='btn rounded-xl border-[#D2D2D2] text-center items-center bg-white py-6 lg:px-6 text-black text-lg font-semibold border-2 hover:drop-shadow-lg hover:bg-[#D2D2D2]'><span className='gap-1 w-2.5/12'><img src={googlePlayImg} alt="" /></span> Google Play</button>
+                <Link target='_blank' to='https://play.google.com/store'>
+                    <button className='btn rounded-xl border-[#D2D2D2] text-center items-center bg-white py-6 lg:px-6 text-black text-lg font-semibold border-2 hover:drop-shadow-lg hover:bg-[#D2D2D2]'><span className='gap-1 w-2.5/12'><img src={googlePlayImg} alt="" /></span> Google Play</button>
+                </Link>
 
-                <button className='btn rounded-xl border-[#D2D2D2] text-center items-center bg-white py-6 px-6 text-black text-lg font-semibold border-2 hover:drop-shadow-lg hover:bg-[#D2D2D2]'><span className='gap-1 w-2.5/12'><img src={appStoreImg} alt="" /></span> App Store</button>
+                <Link target='_blank' to='https://apps.apple.com/us/iphone' >
+                    <button className='btn rounded-xl border-[#D2D2D2] text-center items-center bg-white py-6 px-6 text-black text-lg font-semibold border-2 hover:drop-shadow-lg hover:bg-[#D2D2D2]'><span className='gap-1 w-2.5/12'><img src={appStoreImg} alt="" /></span> App Store</button>
+                </Link>
 
             </div>
             <img className="w-auto mx-auto mt-8" src={bannerImage} alt="" />

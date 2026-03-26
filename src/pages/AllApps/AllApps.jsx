@@ -4,15 +4,18 @@ import App from '../App/App';
 
 const AllApps = () => {
     const appsData = useLoaderData()
+
+     window.scrollTo(0, 0);
+
     return (
         <div className='w-11/12 mx-auto py-20'>
             <div className="text-center">
                 <h1 className='lg:text-5xl md:text-4xl text-3xl font-bold'>Our All Applications</h1>
-                <p className='text-lg text-[#627382] mt-5 mb-10' >Explore All Apps on the Market developed by us. We code for Millions</p>
+                <p className='lg:text-lg text-[#627382] mt-5 mb-10' >Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
-            <div className="mb-4 flex justify-between items-center">
+            <div className="mb-4 gap-5 flex lg:flex-row md:flex-row flex-col justify-between items-center">
                 <div>
-                    <h4 className='text-xl font-semibold'>(132) Apps Found</h4>
+                    <h4 className='text-xl font-semibold'>({appsData.length}) Apps Found</h4>
                 </div>
                 <div >
                     <label className="input">
