@@ -5,14 +5,12 @@ import { Link } from 'react-router';
 
 const App = ({ app }) => {
 
-    console.log(app);
-
     const { title, downloads, image, ratingAvg } = app;
 
     return (
         <Link to={`/appdetails/${app.id}`}>
 
-        <div >
+        <div>
           
             <div className="w-full h-110 card bg-base-100 shadow-sm px-4 py-4 cursor-pointer">
                 <figure className="">
@@ -24,7 +22,11 @@ const App = ({ app }) => {
                 <div className="items-centern mt-4">
                     <h2 className="text-xl text-left font-semibold">{title}</h2>
                     <div className="card-actions w-full justify-between mt-4">
-                        <button className="btn border-none bg-[#F1F5E8] text-[#00D390] text-base"><LuDownload />{downloads}</button>
+                        <button className="btn border-none bg-[#F1F5E8] text-[#00D390] text-base"><LuDownload />{new Intl.NumberFormat("en-us",{
+                             notation: "compact",
+                            }).format(downloads)
+                            
+                    }+</button>
                         <button className="btn border-none bg-[#FFF0E1] text-[#FF8811] text-base"><FaStar /> {ratingAvg}</button>
                     </div>
                 </div>

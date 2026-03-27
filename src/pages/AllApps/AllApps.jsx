@@ -37,7 +37,7 @@ const AllApps = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {
-                    appsData.map(app => (<App app={app}></App>))
+                    appsData.map(app => (<App key={app.id} app={app}></App>))
                 }
             </div>
         </div>

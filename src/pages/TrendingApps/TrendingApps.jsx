@@ -5,7 +5,6 @@ import { Link } from 'react-router';
 
 const TrendingApps = ({ appsData }) => {
 
-    console.log(appsData);
 
     const trendingApp = appsData.sort((a, b) => b.ratingAvg - a.ratingAvg).slice(0, 8);
     return (

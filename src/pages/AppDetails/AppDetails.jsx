@@ -4,19 +4,26 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 import RatingsChart from '../RatingsChart/RatingsChart';
+import { addInstallApp } from '../../utility/localStorage';
 
 
 const AppDetails = () => {
 
     const appData = useLoaderData()
 
-         window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
     const { id } = useParams();
 
     const app = appData.find((app) => app.id === parseInt(id));
 
     const { image, title, companyName, size, reviews, downloads, ratingAvg, description, ratings } = app;
+
+
+    const handleInstallApp = id => {
+
+        addInstallApp(id)
+    };
 
     return (
         <div>
@@ -41,7 +48,11 @@ const AppDetails = () => {
                                     <img className="mb-2" src={downloadIcon} alt="" />
                                     <div className="stat-title">Downloads</div>
                                     <div className="stat-value">
-                                        {downloads}
+                                        {new Intl.NumberFormat("en-us",{
+                             notation: "compact",
+                            }).format(downloads)
+                            
+                    }+
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +74,7 @@ const AppDetails = () => {
                             </div>
                         </div>
                         <div>
-                            <button className='px-5 py-4 rounded-lg  bg-[#00D390] text-white'>Install Now ({size}MB)</button>
+                            <button onClick={() => handleInstallApp(id)} className='skeleton btn hover:bg-[#00af78] px-5 py-6.5 rounded-lg  bg-[#00D390] text-white'>Install Now ({size}MB)</button>
                         </div>
                     </div>
                 </div>
@@ -72,7 +83,7 @@ const AppDetails = () => {
                     <h4 className="text-2xl font-bold mb-6">Ratings</h4>
                     <RatingsChart ratings={ratings}></RatingsChart>
                 </div>
-                  <hr className="border-[#627382] my-10" />
+                <hr className="border-[#627382] my-10" />
                 <div className="flex flex-col gap-y-6">
                     <h4 className="text-2xl font-bold mb-6 ">Description</h4>
 
