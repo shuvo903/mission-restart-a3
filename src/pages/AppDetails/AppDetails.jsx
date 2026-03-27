@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 import RatingsChart from '../RatingsChart/RatingsChart';
-import { addInstallApp } from '../../utility/localStorage';
+import { addInstallApp, getInstallApp } from '../../utility/localStorage';
+import { toast } from 'react-toastify';
 
 
 const AppDetails = () => {
 
     const appData = useLoaderData()
+    const { id } = useParams();
+    const [isInstalled, setIsInstalled] = useState(false);
+
+
+    useEffect(() => {
+        const installedList = getInstallApp();
+
+        const exists = installedList.includes(parseInt(id)) || installedList.includes(id.toString());
+        if (exists) {
+            setIsInstalled(true);
+        }
+    }, [id]);
 
     window.scrollTo(0, 0);
-
-    const { id } = useParams();
 
     const app = appData.find((app) => app.id === parseInt(id));
 
@@ -21,8 +32,10 @@ const AppDetails = () => {
 
 
     const handleInstallApp = id => {
-
         addInstallApp(id)
+        setIsInstalled(true)
+        toast.success(`${title} App Install successfully!`);
+
     };
 
     return (
@@ -48,11 +61,11 @@ const AppDetails = () => {
                                     <img className="mb-2" src={downloadIcon} alt="" />
                                     <div className="stat-title">Downloads</div>
                                     <div className="stat-value">
-                                        {new Intl.NumberFormat("en-us",{
-                             notation: "compact",
-                            }).format(downloads)
-                            
-                    }+
+                                        {new Intl.NumberFormat("en-us", {
+                                            notation: "compact",
+                                        }).format(downloads)
+
+                                        }+
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +87,23 @@ const AppDetails = () => {
                             </div>
                         </div>
                         <div>
-                            <button onClick={() => handleInstallApp(id)} className='skeleton btn hover:bg-[#00af78] px-5 py-6.5 rounded-lg  bg-[#00D390] text-white'>Install Now ({size}MB)</button>
+
+                            {isInstalled === true ? (
+                                <button
+                                    disabled
+                                    className='btn px-5 py-6.5 rounded-lg bg-[#627382] text-white cursor-not-allowed'
+                                >
+                                    Installed
+                                </button>
+                            ) : (
+                                <button
+                                    onClick={() => handleInstallApp(id)}
+                                    className='skeleton btn hover:bg-[#00af78] px-5 py-6.5 rounded-lg bg-[#00D390] text-white'
+                                >
+                                    Install Now ({size}MB)
+                                </button>
+                            )}
+
                         </div>
                     </div>
                 </div>

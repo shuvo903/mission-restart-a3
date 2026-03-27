@@ -5,7 +5,7 @@ import App from '../App/App';
 const AllApps = () => {
     const appsData = useLoaderData()
 
-     window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
     return (
         <div className='w-11/12 mx-auto py-20'>

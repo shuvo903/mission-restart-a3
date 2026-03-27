@@ -1,30 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
-import { getInstallApp } from '../../utility/localStorage';
+
+import { Link, useLoaderData } from 'react-router';
+
 import Installation from '../Installation/Installation';
 
+
 import { ChevronDown } from 'lucide-react';
+import AppsError from '../AppsError/AppsError';
+import { useState } from 'react';
 
 const MyInstallation = () => {
 
-    const [installApp, setInstallApp] = useState([])
 
-    const [sort, setSort] = useState("");
 
     const appData = useLoaderData()
+    const [sort, setSort] = useState("");
+    const [installApp, setInstallApp] = useState(appData); 
+
+
 
     window.scrollTo(0, 0);
 
 
-    useEffect(() => {
-        const installAppData = getInstallApp()
 
-        const convertedInstallApp = installAppData.map(id => parseInt(id));
 
-        const myInstallApp = appData.filter(app => convertedInstallApp.includes(app.id));
 
-        setInstallApp(myInstallApp);
-    }, [])
+
 
     const handleSort = (type) => {
 
@@ -75,7 +75,11 @@ const MyInstallation = () => {
             </div>
             <div className="grid grid-cols-1 gap-4">
                 {
-                    installApp.map(app => (<Installation key={app.id} app={app}></Installation>))
+                    installApp.length === 0
+                        ? <AppsError />
+                        : installApp.map(app => (
+                            <Installation key={app.id} app={app} installApp={installApp} setInstallApp={setInstallApp} />
+                        ))
                 }
             </div>
         </div>
