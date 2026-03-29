@@ -27,13 +27,12 @@ const addInstallApp = (id) => {
 
 const removeInstallApp = (id) => {
   const installAppData = getInstallApp();
-  
+
   const remainingApps = installAppData.filter(
     (appId) => parseInt(appId) !== parseInt(id),
   );
   const data = JSON.stringify(remainingApps);
   localStorage.setItem("installApp", data);
-  console.log("Removed ID:", id);
 };
 
 export { addInstallApp, getInstallApp, removeInstallApp };

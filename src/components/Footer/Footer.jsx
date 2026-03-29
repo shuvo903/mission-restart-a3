@@ -23,7 +23,7 @@ const Footer = () => {
 
                     <Link className='text-stone-400 link link-hover' to='/'> Home</Link>
                     <Link className='text-stone-400 link link-hover' to='/apps'> Apps</Link>
-                    <Link className='text-stone-400 link link-hover' to='/readList'> Installation</Link>
+                    <Link className='text-stone-400 link link-hover' to='/installApp'> Installation</Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title opacity-100 font-semibold text-white">Services</h6>

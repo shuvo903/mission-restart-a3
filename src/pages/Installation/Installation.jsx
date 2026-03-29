@@ -2,7 +2,7 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { LuDownload } from 'react-icons/lu';
 import { removeInstallApp } from '../../utility/localStorage';
-import {toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const Installation = ({ app, setInstallApp, installApp }) => {
 
@@ -14,11 +14,11 @@ const Installation = ({ app, setInstallApp, installApp }) => {
 
         const remaining = installApp.filter(app => app.id !== id);
         setInstallApp([...remaining]);
-        console.log(id);
+
 
         removeInstallApp(id);
 
-       toast.success(`${title} App uninstalled successfully!`);
+        toast.success(`${title} App uninstalled successfully!`);
 
     };
 

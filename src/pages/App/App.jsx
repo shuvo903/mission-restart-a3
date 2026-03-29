@@ -8,6 +8,8 @@ const App = ({ app }) => {
     const { title, downloads, image, ratingAvg } = app;
 
     return (
+
+
         <Link to={`/apps/${app.id}`}>
 
             <div>

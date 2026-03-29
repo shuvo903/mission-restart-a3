@@ -6,7 +6,7 @@ import Installation from '../Installation/Installation';
 
 import { ChevronDown } from 'lucide-react';
 import AppsError from '../AppsError/AppsError';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const MyInstallation = () => {
 
@@ -14,15 +14,13 @@ const MyInstallation = () => {
 
     const appData = useLoaderData()
     const [sort, setSort] = useState("");
-    const [installApp, setInstallApp] = useState(appData); 
+    const [installApp, setInstallApp] = useState(appData);
 
 
 
-    window.scrollTo(0, 0);
-
-
-
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 
 
@@ -54,7 +52,7 @@ const MyInstallation = () => {
             </div>
             <div className="mb-4 gap-5 flex lg:flex-row md:flex-row flex-col justify-between items-center">
                 <div>
-                    <h4 className='text-xl font-semibold'>{installApp.length} Apps Found</h4>
+                    <h4 className='text-xl font-semibold'>({installApp.length}) Apps Found</h4>
                 </div>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn m-1 w-60 justify-between bg-white text-[#627382] select-neutral">

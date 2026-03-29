@@ -8,7 +8,7 @@ import { ToastContainer } from 'react-toastify';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
- <RouterProvider router={router} />
- <ToastContainer  style={{ marginTop: "80px" }} />
-  </StrictMode>,
+    <RouterProvider router={router} />
+    <ToastContainer style={{ marginTop: "80px" }} />
+  </StrictMode>
 )

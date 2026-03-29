@@ -19,19 +19,19 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        loader: () => fetch('./appsData.json'),
+        loader: () => fetch('/appsData.json'),
         HydrateFallback: Loader,
         Component: Home,
       },
       {
         path: "/apps",
-        loader: () => fetch('./appsData.json'),
+        loader: () => fetch('/appsData.json'),
         HydrateFallback: Loader,
         Component: AllApps,
       },
       {
         path: "/apps/:id",
-        loader: () => fetch('./appsData.json'),
+        loader: () => fetch('/appsData.json'),
         HydrateFallback: Loader,
         Component: AppDetails,
         errorElement: <NotFoundApp />

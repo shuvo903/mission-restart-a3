@@ -24,7 +24,9 @@ const AppDetails = () => {
         }
     }, [id]);
 
-    window.scrollTo(0, 0);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const app = appData.find((app) => app.id === parseInt(id));
 
